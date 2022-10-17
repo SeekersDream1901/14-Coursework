@@ -48,3 +48,4 @@ def viev_posts_by_username(username):
     return render_template('user-feed.html',
                            posts=posts,
                            name=name)
+  
